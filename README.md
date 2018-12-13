@@ -5,7 +5,7 @@ In this tutorial I am  going to integrate two of the cognitive services that I h
 ***
 
 ### 1. Custom Vision Service
-We create new custom vision service using Azure subscription. My location is still going to be set to south central US. Im going to keep using my existing research group as you see in the following pictures. The service will be created and deployed just in few minutes. 
+In this project I will use my existing Azure pass. First, I create a custom vision service using Azure subscription. My location is still going to be set to south central US and I keep using my existing research group as you see in the following pictures. The service will be created and deployed just in few minutes. 
 
 
 ![create_new_custom_vision_services_on_azure_](https://user-images.githubusercontent.com/26039303/49919411-c5b80d80-fea6-11e8-8c4b-4a6ea671b8b4.png)
@@ -28,3 +28,7 @@ Then, we can run a test to observe if the desired object is identified correctly
 
 
 ![performance](https://user-images.githubusercontent.com/26039303/49925307-c78acc80-feb8-11e8-9d15-7e13f3b56540.png)
+
+
+### 2. Web App Bot
+I created a bot service app in Azure portal and I named this to be LPA bot service. Further, I select the subscription type, resource groupe, location and prising tier. I used my Azure pass and choosed a free prising tier which allows me to have 10000 premium messages. There is also an option to choose between  different SDK version and programming languages. I choosed to go for C# template. 
