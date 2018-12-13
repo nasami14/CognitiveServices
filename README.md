@@ -1,6 +1,6 @@
 ## Welcome to the Cognitive Services
 
-In this tutorial I am  going to integrate two of the cognitive services that I have implemented through Azure Machine Learning  course. First, I will create a Custom Vision Service (Fruit classifier project) to train a model for identifying objects without writing any code. Second, I will write some code in Web bot App to create the Car Brand Classifier project. THe system will integrate  a chat bot service  with the custom vision service that will automatically respond to our users depending on what they are asking for. Finally, these services can be connected to other channels such as Microsoft Teams or Skype Messenger.
+In this tutorial I am  going to integrate two of the cognitive services that I have implemented through Azure Machine Learning  course. First, I will create a Custom Vision Service (Fruit classifier project) to train a model for identifying objects without writing any code. Second, I will write some code in Web bot App to create the Car Brand Classifier project. The system will integrate  a chat bot service  with the custom vision service that will automatically respond to our users depending on what they are asking for. Finally, these services can be connected to other channels such as Microsoft Teams or Skype Messenger.
 
 ***
 
@@ -33,8 +33,8 @@ Then, we can run a test to observe if the desired object is identified correctly
 
 By clicking on setting icon in the upper right corner we will find ProjectId, Training Key, Training Endpoin, Prediction Key and Prediction Endpoint. In the dollowing sections we are going to write some codes and use the above mentioned information to create a project, send a request (by bot app) to be compared with our trained model.
 
-![code1](https://user-images.githubusercontent.com/26039303/49937019-ce740800-fed5-11e8-8558-db9507da757f.png)
 
+![setting](https://user-images.githubusercontent.com/26039303/49938842-5ad4f980-fedb-11e8-9704-c59ca82a43a9.png)
 
 ### 2. Web App Bot
 I created a bot service app in Azure portal and I named this to be LPA bot service. Further, I select the subscription type, resource groupe, location and prising tier. I used my Azure pass and choosed a free prising tier which allows me to have 10000 premium messages. 
