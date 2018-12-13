@@ -1,6 +1,6 @@
 ## Welcome to the Cognitive Services
 
-In this tutorial I am  going to integrate two of the cognitive services that I have implemented through Azure Machine Learning  course. First, I will create a Custom Vision Service (Fruit classifier project) to train a model for identifying objects without writing any code. Second, I will write some code in Web bot App to create the Car Brand Classifier project. The system will integrate  a chat bot service  with the custom vision service that will automatically respond to our users depending on what they are asking for. Finally, these services can be connected to other channels such as Microsoft Teams or Skype Messenger.
+In this tutorial I am  going to integrate two of the cognitive services that I have implemented through Azure Machine Learning  course. First, I will create a Custom Vision Service (Fruit classifier project) to train a model for predicting and identifying objects without writing any code. Second, I will write some code in Web bot App template to create a Car Brand Classifier project. Subsequently, I will send image of a cars over the bot channel and the bot app will respond back with predictions its receives from custom vision service. The system will integrate a chat bot service  with the custom vision service that will automatically respond to the users depending on what they are asking for. Finally, these services can be connected to other channels such as Microsoft Teams or Skype Messenger.
 
 ***
 
@@ -17,7 +17,7 @@ Every call to Custom Vision Training API requires a subscription key. This key n
 ![customvisiondeployed](https://user-images.githubusercontent.com/26039303/49920683-5a246f00-feab-11e8-88b2-0ffe30b880ad.png)
 
 
-The following view will display our Fruit Classifier project. I have created four class of fruit by assigning them a tag.
+The following view will display our Fruit Classifier project. I have created four class of fruit by assigning them to a tag.
 
 
 ![fruit_classifier](https://user-images.githubusercontent.com/26039303/49921498-f3ed1b80-fead-11e8-826c-945bea3afbc0.png)
@@ -35,6 +35,12 @@ By clicking on setting icon in the upper right corner we will find ProjectId, Tr
 
 
 ![setting](https://user-images.githubusercontent.com/26039303/49938842-5ad4f980-fedb-11e8-9704-c59ca82a43a9.png)
+
+
+In the performance page we can have information about image URL, Production key and content type which we will use in the next section.
+
+
+![imageurl](https://user-images.githubusercontent.com/26039303/49941676-78a65c80-fee3-11e8-8506-2bc528bd50f6.png)
 
 ### 2. Web App Bot
 I created a bot service app in Azure portal and I named this to be LPA bot service. Further, I select the subscription type, resource groupe, location and prising tier. I used my Azure pass and choosed a free prising tier which allows me to have 10000 premium messages. 
@@ -54,10 +60,15 @@ In this project we are going to write some codes. We can simply make quick chang
 ![build_online_code_editor](https://user-images.githubusercontent.com/26039303/49929610-2f461500-fec3-11e8-8ab3-a4f5a7501965.png)
 
 
- Let's go ahead and open the on line code editor. Then, we navigate to EchoDialog.cs. Here we observe the main functionalities and we are going to focus "Task StartAsyncon" and "Task MessageReceivedAsync" which also called task async node. 
+Let's go ahead and open the on line code editor. Then, we navigate to EchoDialog.cs. Here we observe the main functionalities and we are going to focus on "Task StartAsyncon" and "Task MessageReceivedAsync" which also called task async node. It will use a counter and keep track of all message been sent and displaying them. 
  
  ![echodialog](https://user-images.githubusercontent.com/26039303/49935567-a2568800-fed1-11e8-8d0b-d559fd13f02d.png)
  
+ 
+ ![counter](https://user-images.githubusercontent.com/26039303/49952167-b8793e00-fefb-11e8-944f-5e69fb767d4d.png)
+ 
+ 
+ I have added following line of code to our template. 
  
  ![code1](https://user-images.githubusercontent.com/26039303/49937019-ce740800-fed5-11e8-8558-db9507da757f.png)
 
