@@ -85,8 +85,13 @@ Now we go back to our test channel and send a request (sending an url) to custom
 
 ![bmw](https://user-images.githubusercontent.com/26039303/49995259-e908b880-ff8b-11e8-9be9-a1e814c2586d.png)
 
-We can also navigate to Custom vision website and view the result.
+Further, We navigate to Custom vision website and view the result.
 
+
+![bmw2](https://user-images.githubusercontent.com/26039303/49996050-384fe880-ff8e-11e8-86b4-75c08baa43ee.png)
+
+
+We can also test the expriment in Custom Vision website driectly.
 
 ![prediction_picture](https://user-images.githubusercontent.com/26039303/49995270-f2922080-ff8b-11e8-953e-c5b41d7d0d6a.png)
 
