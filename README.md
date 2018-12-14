@@ -80,10 +80,12 @@ Than we have to specify the request Url, header with prediction key and body. Af
 ![build](https://user-images.githubusercontent.com/26039303/49992349-194c5900-ff84-11e8-9099-1377ead25803.png)
 
 
-Now we go back to our test channel and send a request (sending an url) to custom vision service and get prediction of car brand.
+Now we go back to our test channel and send a request (sending an url) to custom vision service and get prediction of car brand. After few seconds We can see the result in the chat bot.
 
 
 ![bmw](https://user-images.githubusercontent.com/26039303/49995259-e908b880-ff8b-11e8-9be9-a1e814c2586d.png)
+
+We can also navigate to Custom vision website and view the result.
 
 
 ![prediction_picture](https://user-images.githubusercontent.com/26039303/49995270-f2922080-ff8b-11e8-953e-c5b41d7d0d6a.png)
