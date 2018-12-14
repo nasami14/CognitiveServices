@@ -85,6 +85,20 @@ Now we go back to our test channel and send a request (sending an url) to custom
 
 ![bmw](https://user-images.githubusercontent.com/26039303/49995259-e908b880-ff8b-11e8-9be9-a1e814c2586d.png)
 
+
+We want to get the jason file deserialized and get the actual data. We just need to extract the first brand type and its prediction probability and then  display it to user. We copy the jason code we recieved from the service and we are going to generate a class out of this. To do so we navigate to http://jsonutils.com/ and paste the code here.
+
+
+![jsonfile](https://user-images.githubusercontent.com/26039303/50034998-198a3a00-0000-11e9-9075-818892cdf5ad.png)
+
+
+We copy the code generated here and paste it to our code in EchoDialog.cs file in Web Bot App in Azure Portal and we build it again. We test the service by send a image url in the test channel and we observe that the out put is different and more userfriendly.
+
+
+![brandformated](https://user-images.githubusercontent.com/26039303/50035846-a9ca7e00-0004-11e9-9645-a928ed63dce5.png) 
+ 
+
+
 Further, We navigate to Custom vision website (prediction page) and view the result.
 
 
