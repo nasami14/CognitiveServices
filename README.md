@@ -68,9 +68,16 @@ Let's go ahead and open the on line code editor. Then, we navigate to EchoDialog
  ![counter](https://user-images.githubusercontent.com/26039303/49952167-b8793e00-fefb-11e8-944f-5e69fb767d4d.png)
  
  
- I have added following line of code to our template. I have defined a method to identify the brands and 
+I have added following line of code to our template. I have defined a method to identify the brands and pass the image Url as a string.
+Than we have to specify the request Url, header with prediction key and body. After finishing the code we run the build.cmd and waiting few seconds to install the packaged.
  
  ![code1](https://user-images.githubusercontent.com/26039303/49937019-ce740800-fed5-11e8-8558-db9507da757f.png)
+
+
+![runbuildcmd](https://user-images.githubusercontent.com/26039303/49992335-0b96d380-ff84-11e8-9cb8-55d660305f08.png)
+
+
+![build](https://user-images.githubusercontent.com/26039303/49992349-194c5900-ff84-11e8-9099-1377ead25803.png)
 
 
 
