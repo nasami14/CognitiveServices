@@ -80,7 +80,7 @@ Than we have to specify the request Url, header with prediction key and body. Af
 ![build](https://user-images.githubusercontent.com/26039303/49992349-194c5900-ff84-11e8-9099-1377ead25803.png)
 
 
-Now we go back to our test channel and send a request (sending an url) to custom vision service and get prediction of car brand. After few seconds We can see the result in the chat bot.
+Now we go back to our test channel and send a request (sending an url) to custom vision service and get prediction of car brand. After few seconds We can see the result in the chat bot. As you see in the picture below, we get the prediction in json format. Since, I am familiar with this kind of information hence it is easy to read and understand the content. But we can not send this type of information to the user so we have to extract just the brand type and predict probability. 
 
 
 ![bmw](https://user-images.githubusercontent.com/26039303/49995259-e908b880-ff8b-11e8-9be9-a1e814c2586d.png)
