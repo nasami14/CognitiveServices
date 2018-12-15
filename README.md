@@ -113,8 +113,15 @@ We can also test the expriment in Custom Vision website driectly.
 ![prediction_picture](https://user-images.githubusercontent.com/26039303/49995270-f2922080-ff8b-11e8-953e-c5b41d7d0d6a.png)
 
 
+### 3. Connecting the Bot to a Facebook Messenger Channel
+
+The most interesting thing here is that these bot servers can be connected to many different types of channels such as Skype, Teams and Facebook Messenger. We are going to connect to the last mentioned option.
 
 
+![imageurl](https://user-images.githubusercontent.com/26039303/50036346-93bebc80-0008-11e9-9d3b-dc253a56fa19.png)
+
+
+![configure_facebook](https://user-images.githubusercontent.com/26039303/50036351-991c0700-0008-11e9-93da-5ccb54fff324.png)
 
 
 
