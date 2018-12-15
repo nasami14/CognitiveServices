@@ -95,6 +95,9 @@ We want to get the jason file deserialized and get the actual data. We just need
 We copy the code generated here and paste it to our code in EchoDialog.cs file in Web Bot App in Azure Portal and we build it again. We test the service by send a image url in the test channel and we observe that the out put is different and more userfriendly.
 
 
+![newcode](https://user-images.githubusercontent.com/26039303/50035909-180f4080-0005-11e9-9ab3-0d1dddf33b76.png)
+
+
 ![brandformated](https://user-images.githubusercontent.com/26039303/50035846-a9ca7e00-0004-11e9-9645-a928ed63dce5.png) 
  
 
