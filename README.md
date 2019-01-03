@@ -31,7 +31,7 @@ Then, we can run a test to observe if the desired object is identified correctly
 
 ![performance](https://user-images.githubusercontent.com/26039303/49925307-c78acc80-feb8-11e8-9d15-7e13f3b56540.png)
 
-By clicking on setting icon in the upper right corner we will find ProjectId, Training Key, Training Endpoin, Prediction Key and Prediction Endpoint. In the dollowing sections we are going to write some codes and use the above mentioned information to create a project, send a request (by bot app) to be compared with our trained model.
+By clicking on setting icon in the upper right corner we will find ProjectId, Training Key, Training Endpoin, Prediction Key and Prediction Endpoint. In the following sections we are going to write some codes and use the above mentioned information to create a project, send a request (by bot app) to be compared with our trained model.
 
 
 ![setting](https://user-images.githubusercontent.com/26039303/49938842-5ad4f980-fedb-11e8-9704-c59ca82a43a9.png)
