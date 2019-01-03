@@ -102,7 +102,7 @@ We copy the code generated here and paste it to our code in EchoDialog.cs file i
  
 
 
-Further, We navigate to Custom vision website (prediction page) and view the result.
+Further, We navigate to Custom vision website (prediction page) and view the result. We observe that the result from chatbot has been automatically updatet here.
 
 
 ![bmw2](https://user-images.githubusercontent.com/26039303/49996050-384fe880-ff8e-11e8-86b4-75c08baa43ee.png)
